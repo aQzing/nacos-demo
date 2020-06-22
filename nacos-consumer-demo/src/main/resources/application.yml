@@ -1,0 +1,9 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.224.8.207:8848
